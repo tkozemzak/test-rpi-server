@@ -5,7 +5,7 @@ function App() {
   const [fetchedString, setFetchedString] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000").then((res) => {
+    fetch("http://tkozemzak.ddns.net:3000").then((res) => {
       setFetchedString(res.status);
     });
   }, []);
